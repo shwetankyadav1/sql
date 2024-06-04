@@ -25,7 +25,7 @@ Review the AdventureWorks Schema [here](https://i.stack.imgur.com/LMu4W.gif)
 
 Highlight at least two differences between it and your ERD. Would you change anything in yours?
 ```
-Your answer...
+THe AdventureWorks Schema subdivides it's tables into broad categories such as Sales, Production, Person etc., which I do not. Their schema also shows connections between tables by arrows but does not specify which columns specifically are in common for the connection, unlike my ERD which connects the relavant columns being used as PK,FK. Furthremore, the AventureWorks schema also has many tables with multiple PK while mine does not. 
 ```
 
 # Criteria
