@@ -15,7 +15,9 @@ _Hint, search type 1 vs type 2 slowly changing dimensions._
 
 Bonus: Are there privacy implications to this, why or why not?
 ```
-Your answer...
+Type 1 Architecture: CUSTOMER_ADDRESS table containing field for customer_id (Primary Key), Street No., Street, City, Province, Postal Code. This architecture only retains the current address of the customer, old addresses are overwritten
+
+Type 2 Architecture: The CUSTOMER_ADDRESS table has same fields as above. When a new address is added, all the above values are kept in a new row lablled (old_n_*) where n is iterated from 1 to increasing values by 1. 
 ```
 
 ## Question 4
